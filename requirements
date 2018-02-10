@@ -1,7 +1,5 @@
 httplib2
 google
 requests
-re
+re2
 bs4
-socket
-time
