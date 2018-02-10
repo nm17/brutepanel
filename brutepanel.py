@@ -52,6 +52,8 @@ M = '\033[1;35;32m' # magenta
 
 def adminpanel():
 	
+	  #here you can edit all the paths as per your choice
+	
 	  quick = ['admin/','administrator/','admin/login.html','admin/index.html','wp-login.php','admin/admin-login.php','admin_login.php', 'adm.php','login.html','administrator.html','login.html','admin.html','cp.html','adminpanel.php','admin_login.php','cpanel','user_login','admin-area/login.php']
 
 	  regular = ['admin/','administrator/','admin1/','admin2/','admin3/','admin4/','_admin/','usuarios/',
