@@ -1,8 +1,8 @@
 # coding: utf-8
 #!/usr/bin/env python
 
-#:::::::::::::::::::::::#
-#      BrutePanel       #
+#::::::::::::::::::::::::#
+#      Brute Panel       #
 #:::::::::::::::::::::::#
 
 # A modern admin-panel finder (bruteforcer + search + dorker + port scanner)
