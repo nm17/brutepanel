@@ -6,13 +6,13 @@ Brute Panel is a modern admin login path finder written in Python.
 - [x] Everything is automated on demand.
 - [x] Bruteforces for directories as well as paths.
 - [x] Has a user-friendly interaction environment.
-- [x] Big path list (nearabout 3000 paths).
+- [x] Big path list (near about 3000 paths).
 - [x] Prepares custom report at end of admin panel gathering.
 - [x] Supports php, asp, cgi, brf, js, jsp, cfm and html extensions.
 - [x] Support for custom paths.
 
 #### Requirements:
-- httplib
+- urllib2
 - google
 - requests
 - re
