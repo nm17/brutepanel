@@ -824,7 +824,7 @@ def adminpanel():
 		if brutefound200:
 		    print C+'    |'
 		    for m in brutefound200:
-			print C+'    +-- '+GR+m+P+' [Response 200]'
+			print C+'    +-- '+GR+m+G+' [Response 200]'
 		else:
 		    print R+' [-] No real admin path found'
 
