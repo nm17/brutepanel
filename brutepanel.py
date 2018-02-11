@@ -251,7 +251,7 @@ def adminpanel():
 	    print ""+G+"                  knowledge of.\n"
 	    print ''+GR+' +=====================================================+\n'
 	    time.sleep(0.2)
-	    co = raw_input(''+GR+' ▣ \033[1;4mTID\033[0m'+GR+' :▶ ' + color.END)
+	    co = raw_input(''+GR+' ▣ \033[1;4mTID\033[0m'+GR+' :> ' + color.END)
 	    if co == '2':
 		    print ''
 		    print ''+R+ '  Choose the type of bruteforce you want to perform :-'
@@ -265,7 +265,7 @@ def adminpanel():
 		    time.sleep(0.05)
 		    print ''+GR+' +========================================+\n' 
 		    time.sleep(0.2)
-		    code = raw_input(''+GR+' ▣ \033[1;4mTID\033[0m'+GR+' :▶ ' + color.END)
+		    code = raw_input(''+GR+' ▣ \033[1;4mTID\033[0m'+GR+' :> ' + color.END)
 		    time.sleep(0.2)
 		    if code =='1':
 			print ""+O+"\n [¬] Scan Type Selected: "+GR+"Quick Shuffle"
@@ -284,7 +284,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [*] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -303,7 +302,7 @@ def adminpanel():
 			time.sleep(0.5)
 		        print(""+O+" [!] Total Pages Scanned -> %s" % (var2))
 			time.sleep(0.5)
-		        s=raw_input("\n"+C+" [*] The bruteforce completed, press 'Enter' to continue")
+		        s=raw_input("\n"+C+" [*] The bruteforce completed, press "+GR+"'Enter'"+C+" to continue")
 			if s == "":
 			    pass			
 
@@ -324,7 +323,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -364,7 +362,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -417,7 +414,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -457,7 +453,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -497,7 +492,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -537,7 +531,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue \n")
 				break
 				connection.close()
 		            elif response.status == 404:
@@ -578,7 +571,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue\n")
 				break
 				connection.close()
 		            elif response.status == 404:
@@ -619,7 +611,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -659,7 +650,6 @@ def adminpanel():
 		                var1 = var1 + 1
 		                print "%s %s" % (""+C+"\n\n [+] " + host, ""+G+"Admin page found!\n")
 				brutefound200.append(host)
-		                raw_input(""+G+" [-] Press 'Enter' to " +O+ "continue "+G+"scanning.\n")
 				break
 		            elif response.status == 404:
 		                var2 = var2 + 1
@@ -762,18 +752,18 @@ def adminpanel():
 		os.system('clear')
 	  	print ''
 		print ''
-		print ""+C+"  _____ ___ _______   ____     _      ____   __   _____ _______ "
+		print ""+C+"    ________              _____           ________                   ______"
 		time.sleep(0.1)
-		print ""+C+" |  ___|_  |.  __  | |__  |   / \    |__  |  \ \ / |_  |.  __  |"
+		print ""+C+"    ___  __ )__________  ___  /_____      ___  __ \_____ _______________  /"
 		time.sleep(0.1)
-		print ""+B+" | |_    | || |  | |    | |  / _ \      | |   \ V /  | || |  | |"
+		print ""+B+"    __  __  |_  ___/  / / /  __/  _ \     __  /_/ /  __ `/_  __ \  _ \_  / "
 		time.sleep(0.1)
-		print ""+B+" |  _|   | || | _| |____| | / ___ \ ____| | ___\  \  | || | _| |"
+		print ""+B+"    _  /_/ /_  /   / /_/ // /_ /  __/     _  ____// /_/ /_  / / /  __/  /  "
 		time.sleep(0.1)
-		print ""+C+" |_|     | ||_||___/____/\_/_/   \_/____/\_|______|  | ||_||___|"
+		print ""+C+"    /_____/ /_/    \__,_/ \__/ \___/      /_/     \__,_/ /_/ /_/\___//_/   \n"
 		time.sleep(0.1)
-		print ""+C+"         |_|                                         |_|        \n"
-		print ''+B+'             Coded with '+R+'❤'+B+' by '+P+'@_tID'+B+' (Team '+P+'CodeSploit'+B+')\n'
+		print ''+GR+'                                  [ v 1.0.1 ]\n'
+		print ''+B+'             Coded with '+R+'<3'+B+' by '+P+'@_tID'+B+' (Team '+P+'CodeSploit'+B+')\n'
 		global var1
 		global var2
 		global web
@@ -793,7 +783,7 @@ def adminpanel():
 	        	print (""+G+" [!] Server detected online.")
 	  	except (httplib.HTTPResponse, socket.error) as Exit:
 	        	raw_input(""+R+" [!] Error occured, Server is Offline or Invalid URL")
-			sys.exit()
+			sys.exit(0)
 	  
 		time.sleep(0.4)
 		print ''+B+'\n [*] Preparing modules...'
@@ -825,7 +815,9 @@ def adminpanel():
 		portscan()
 		print C+'\n [!] Admin Panel Hunt Completed!'
 
-		print R+'\n       R E P O R T\n'
+		print B+'\n    +---------------+'
+		print B+'    |  '+R+'R E P O R T  '+B+'|'
+		print B+'    +---------------+\n'
 		print P+'    Bruteforce'
 		print P+'    =========='
 
@@ -834,7 +826,7 @@ def adminpanel():
 		    for m in brutefound200:
 			print C+'    +-- '+GR+m+P+' [Response 200]'
 		else:
-		    print R+' [-] No admin paths found'
+		    print R+' [-] No real admin path found'
 
 		if brutefound302:
 		    print C+'    |'
