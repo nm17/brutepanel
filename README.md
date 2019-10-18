@@ -1,3 +1,6 @@
+# This repo is archived
+You should check out https://github.com/teamcodesploit/brutepanel , since they seem to be the original team behind this project.
+
 # Brute Panel
 Brute Panel is a modern admin login path finder written in Python.
 
